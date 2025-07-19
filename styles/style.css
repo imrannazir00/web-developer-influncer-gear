@@ -1,0 +1,92 @@
+/* font-family */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* free-style */
+.color-1{
+    color: #3A3A3A;
+}
+.white{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.max-width{
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
+}
+.primary-button{
+    width: 12.25rem;
+    height: 2.75rem;
+    border-radius: 2.56rem;
+    background-color: #E02C6D;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
+/* header-section*/
+
+.header-container{
+    margin-top: 5rem;
+}
+.navbar{
+    justify-content: space-between;
+}
+.nav{
+    gap: 2.1rem;
+    font-weight: 500;
+    list-style: none;
+    
+    
+}
+.nav a{
+    text-decoration: none;
+    color: #3A3A3A;
+    
+}
+.nav-container{
+    margin-top: 3.18rem;
+    margin-bottom: 4.12rem;
+}
+.nav-contant{
+    width: 36.35rem;
+    gap: 1rem;
+}
+.nav-head{
+    font-size: 3.2rem;
+    color: #3A3A3A;
+}
+.nav-button{
+    color: white;
+}
+.nav-img img{
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+}
+
+
